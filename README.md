@@ -15,4 +15,39 @@ For more info check out this [article](https://colah.github.io/posts/2015-08-Und
 
 ## Usage: 
 
-* 
+* First collect the midi files to train from, a few samples of beethoven's (midi files)[https://github.com/crypto-code/LSTM-Music-Composer/tree/master/beeth] are already provided.
+
+* To train the lstm run on the collected training data, run train.py
+
+```
+python train.py --help
+Using TensorFlow backend.
+usage: train.py [-h] --input INPUT --name NAME [--epoch EPOCH]
+
+LSTM Music Generator
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --input INPUT  Directory containing input music samples. eg: ./data
+  --name NAME    Name of the Music
+  --epoch EPOCH  Number of training epochs
+  ```
+  
+* To generate new music samples run generate.py
+```
+python generate.py --help
+Using TensorFlow backend.
+usage: generate.py [-h] --name NAME --output OUTPUT
+
+LSTM Music Generator
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --name NAME      Name of the Music
+  --output OUTPUT  Output file name
+```
+
+# G00D LUCK
+
+For doubts email me at:
+atinsaki@gmail.com
