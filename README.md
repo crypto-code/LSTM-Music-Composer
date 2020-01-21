@@ -15,7 +15,7 @@ For more info check out this [article](https://colah.github.io/posts/2015-08-Und
 
 ## Usage: 
 
-* First collect the midi files to train from, a few samples of beethoven's (midi files)[https://github.com/crypto-code/LSTM-Music-Composer/tree/master/beeth] are already provided.
+* First collect the midi files to train from, a few samples of beethoven's [midi files](https://github.com/crypto-code/LSTM-Music-Composer/tree/master/beeth) are already provided.
 
 * To train the lstm run on the collected training data, run train.py
 
